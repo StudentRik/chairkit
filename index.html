@@ -925,7 +925,7 @@
                 <div class="row">
                     <div class="small-12 columns">
                         <div id="date">
-                            <p>Copyright &copy; 2008 - <?php echo date("Y"); ?></p>
+                            <p>Copyright &copy; 2008 - <span id="year"></span></p>
                         </div>
                     </div>
                 </div>
@@ -1032,24 +1032,13 @@
 <script src="js/foundation.min.js"></script>
 <script src="js/chairKit.min.js"></script>
 <script src="//cdn.muut.com/1/moot.min.js"></script>
-<script type="text/javascript">stLight.options({
-    publisher: "6ab1e029-90cc-4ae3-b747-8454806aaf38",
-    doNotHash: false,
-    doNotCopy: false,
-    hashAddressBar: false
-});</script>
-<script>
-    var options = {
-        "publisher": "6ab1e029-90cc-4ae3-b747-8454806aaf38",
-        "position": "left",
-        "ad": {"visible": false, "openDelay": 5, "closeDelay": 0},
-        "chicklets": {"items": ["facebook", "pinterest", "twitter", "googleplus", "linkedin", "email"]}
-    };
-    var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
-</script>
 
 <script>
     $(document).foundation();
+</script>
+<script>
+    var d = document.getElementById('year');
+    d.innerText = new Date().getFullYear();
 </script>
 </body>
 </html>
