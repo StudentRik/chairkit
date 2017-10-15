@@ -3,5 +3,3 @@
 
 User-agent: *
 Disallow: /font-awesome
-Disallow: /_backUp
-Disallow: /secureimage/
