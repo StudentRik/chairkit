@@ -2,7 +2,7 @@
     "use strict";
 
 
-    let CACHE_NAME = 'static-cacheV1.1';
+    let CACHE_NAME = 'static-cacheV1.2';
 
     let urlsToCache = [
         '.',
