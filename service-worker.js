@@ -9,7 +9,7 @@
         '/',
         'index.html',
         'forum.html',
-        'css/',
+        '/css/',
         '/js/vendor/jquery.min.js',
         '/js/foundation.min.js',
         '/js/chairKit.min.js'
