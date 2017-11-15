@@ -2,14 +2,16 @@
     "use strict";
 
 
-    let CACHE_NAME = 'static-cacheV1.2';
+    let CACHE_NAME = 'static-cacheV1.3';
 
     let urlsToCache = [
         '.',
         '/',
         'index.html',
         'forum.html',
-        '/css/',
+        '/css/app.css',
+        '/css/foundation.min.css',
+        '/css/normalize.css',
         '/js/vendor/jquery.min.js',
         '/js/foundation.min.js',
         '/js/chairKit.min.js'
