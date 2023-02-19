@@ -1,44 +1,5 @@
 $(document).ready(function () {
     'use strict';
-// Check contact form
-//     $('#formSubmit').on('click', function (e) {
-// //        PostUserMessage();
-// //        e.preventDefault();
-//         var abort = false;
-//         $('span.labelError').remove();
-//         $(':input[required]').each(function () {
-//             if ($(this).val() === '') {
-//                 $(this).before('<span class="labelError">Required</span>');
-//                 abort = true;
-//             }
-//         });// iterate through each form element
-//         if (abort) {
-//             $(':input[required]').val('');
-//             return false;
-//         } else {
-//             PostUserMessage();
-//         }
-//     });
-//
-//     function PostUserMessage() {
-//         $.ajax({
-//             type: 'POST',
-//             url: './sendMail.php',
-//             data: $('form').serialize()
-//         }).done(function (data) {
-//             var json = JSON.parse(data);
-//
-//             if (json.error === 1) {
-//             // Something gone wrong
-//                 alert(json.error_message);
-//             } else if (json.error === 0) {
-//                 alert("Your message has been received");
-//
-//             // clear form elements
-//                 $(':input').not(':submit').val('');
-//             }
-//         });
-//     }
 
 // swap sliders for footstool or chair kit instructions
     var $swapSlider = $('#swap-slider'),
